@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Ruby where a `NoMethodError` is unexpectedly raised when attempting to modify an instance variable indirectly through the getter method.  The `bug.rb` file contains the erroneous code, while `bugSolution.rb` provides the corrected version. The issue arises from treating a getter method as if it were also a setter.
